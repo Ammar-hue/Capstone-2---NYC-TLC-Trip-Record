@@ -60,7 +60,7 @@ Analisis ini dilakukan untuk mendukung perusahaan dalam merumuskan strategi peng
 
 8. Kontribusi Pendapatan Berdasarkan Zona Penjemputan
 - Zona-zona yang mendominasi jumlah perjalanan seperti East Harlem North dan East Harlem South juga memberikan kontribusi pendapatan yang besar.
-- Namun, zona seperti Midtown Center tetap menjadi salah satu zona dengan kontribusi pendapatan tertinggi meskipun volumenya tidak setinggi zona East Harlem, kemungkinan karena jarak tempuh dan tarif dasar yang lebih tinggi di area pusat bisnis.
+- Namun, zona seperti Midtown Center tetap menjadi salah satu zona dengan kontribusi pendapatan tertinggi meskipun volumenya tidak setinggi zona East Harlem, karena jarak tempuh dan tarif dasar yang lebih tinggi di area pusat bisnis.
 
 **Ringkasan**
 

@@ -92,7 +92,7 @@ Selain itu, terdapat proporsi signifikan perjalanan dengan jarak tempuh pendek n
 
 - Hindari penumpukan armada di zona dengan rasio dropoff tinggi tapi pickup rendah seperti zona pemukiman (Upper East Side).
 
-- Terapkan sistem redistribusi otomatis berdasarkan real-time demand (contoh: setelah dropoff di zona hunian → redirect ke pusat aktivitas).
+- Terapkan sistem redistribusi otomatis berdasarkan permintaan waktu nyata (contoh: setelah dropoff di zona hunian → arahkan ulang ke pusat aktivitas).
 
 **3. Pengelolaan Hari Kerja dan Akhir Pekan**
 

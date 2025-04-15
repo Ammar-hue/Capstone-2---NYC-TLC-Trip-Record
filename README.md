@@ -1,14 +1,12 @@
 # Capstone 2 - NYC TLC Trip Record
 
 ## Latar Belakang
----
 
 Perusahaan penyedia layanan taksi perlu memastikan armada mereka didistribusikan secara optimal untuk memenuhi permintaan pelanggan. Ketidakefisienan dalam pengaturan shift pengemudi dapat menyebabkan meningkatnya biaya operasional, waktu tunggu pelanggan yang lama, dan menurunnya kualitas layanan.
 
 Berdasarkan data historis perjalanan taksi di New York City, diketahui bahwa lonjakan permintaan layanan terjadi secara dinamis tergantung pada waktu dan lokasi. Kondisi ini menjadi tantangan utama bagi perusahaan penyedia layanan taksi dalam mengoptimalkan armada dan jadwal pengemudi.
 
 ## Pernyataan Masalah
----
 
 Perusahaan ingin mengetahui bagaimana karakteristik pola permintaan layanan taksi di Kota New York, khususnya berdasarkan dimensi waktu seperti jam, hari, dan minggu. Selain itu, perusahaan juga ingin memahami bagaimana sebaran dan distribusi permintaan layanan berdasarkan lokasi penjemputan dan penurunan.
 
@@ -16,7 +14,6 @@ Dengan memahami pola permintaan tersebut, perusahaan diharapkan dapat merumuskan
 
 
 ## Tujuan
----
 
 1. Analisis ini dilakukan untuk mendukung perusahaan dalam merumuskan strategi pengaturan armada dan jadwal pengemudi yang lebih efektif dan efisien di Kota New York, dengan menggunakan data perjalanan taksi periode Januari 2023 sebagai dasar evaluasi dan perencanaan operasional untuk periode selanjutnya.
 
@@ -24,7 +21,6 @@ Dengan memahami pola permintaan tersebut, perusahaan diharapkan dapat merumuskan
 
 
 ## Kesimpulan
----
 
 Analisis ini dilakukan untuk mendukung perusahaan dalam merumuskan strategi pengaturan armada dan jadwal pengemudi yang lebih efektif dan efisien di Kota New York, dengan menggunakan data perjalanan taksi periode Januari 2023 sebagai dasar evaluasi dan perencanaan operasional untuk periode selanjutnya.
 

@@ -78,9 +78,9 @@ Selain itu, terdapat proporsi signifikan perjalanan dengan jarak tempuh pendek n
 
 - Gunakan pola waktu permintaan untuk membagi shift ke dalam 3 blok:
 
-    - Pagi (06:00–14:00): permintaan stabil
-    - Sore–Malam (14:00–22:00): puncak permintaan
-    - Malam–Subuh (22:00–06:00): layanan terbatas, fokus bandara
+    - Pagi - Siang (06:00–14:00): permintaan stabil
+    - Sore - Malam (14:00–22:00): puncak permintaan
+    - Malam - Subuh (22:00–06:00): layanan terbatas, fokus bandara
 
 - Shift fleksibel tambahan di jam sibuk (16:00–20:00) di zona Midtown dan Brooklyn.
 

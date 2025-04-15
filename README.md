@@ -73,7 +73,7 @@ Selain itu, terdapat proporsi signifikan perjalanan dengan jarak tempuh pendek n
 
 
 ## Rekomendasi
----
+
 **1. Pengaturan Shift Pengemudi Berbasis Permintaan**
 
 - Gunakan pola waktu permintaan untuk membagi shift ke dalam 3 blok:

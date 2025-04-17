@@ -22,11 +22,9 @@ Dengan memahami pola permintaan tersebut, perusahaan diharapkan dapat merumuskan
 
 ## Kesimpulan
 
-Analisis ini dilakukan untuk mendukung perusahaan dalam merumuskan strategi pengaturan armada dan jadwal pengemudi yang lebih efektif dan efisien di Kota New York, dengan menggunakan data perjalanan taksi periode Januari 2023 sebagai dasar evaluasi dan perencanaan operasional untuk periode selanjutnya.
-
 1. Pola Permintaan Berdasarkan Waktu
 - Permintaan perjalanan tertinggi terjadi pada jam-jam sibuk, terutama antara pukul 16:00 - 20:00, yang berkaitan dengan aktivitas pulang kerja.
-- Jam-jam sepi terjadi pada rentang pukul 00:00 - 05:00 dengan jumlah perjalanan yang jauh lebih rendah.
+- Jam-jam sepi terjadi pada rentang pukul 00:00 - 05:00 dengan jumlah perjalanan yang jauh lebih rendah, tetapi berdasrakan rata-rata jarak perjalanan taksi di NYC cenderung lebih jauh pada periode tengah malam hingga subuh (00.00 - 05.00). hal ini menjawab armada tetap disiapkan meski permintaan rendah.
 - Hari kerja (Senin-Jumat) memiliki volume perjalanan lebih stabil dibandingkan akhir pekan, namun akhir pekan menunjukkan adanya lonjakan di zona-zona tertentu yang berkaitan dengan aktivitas hiburan dan rekreasi.
 - Hari tersibuk terjadi pada hari Jumat, sedangkan hari paling sepi umumnya adalah hari Minggu.
 - Heatmap waktu menunjukkan konsistensi pola permintaan tinggi pada jam-jam tertentu (peak hours) di hampir semua hari, sementara pola sebaran perjalanan berdasarkan minggu (pickup_week) tidak menunjukkan fluktuasi signifikan karena data hanya mencakup 1 bulan observasi.
@@ -60,7 +58,7 @@ Analisis ini dilakukan untuk mendukung perusahaan dalam merumuskan strategi peng
 
 8. Kontribusi Pendapatan Berdasarkan Zona Penjemputan
 - Zona-zona yang mendominasi jumlah perjalanan seperti East Harlem North dan East Harlem South juga memberikan kontribusi pendapatan yang besar.
-- Namun, zona seperti Midtown Center tetap menjadi salah satu zona dengan kontribusi pendapatan tertinggi meskipun volumenya tidak setinggi zona East Harlem, karena jarak tempuh dan tarif dasar yang lebih tinggi di area pusat bisnis.
+- Namun, zona seperti Midtown Center tetap menjadi salah satu zona dengan kontribusi pendapatan tertinggi meskipun volumenya tidak setinggi zona East Harlem, kemungkinan karena jarak tempuh dan tarif dasar yang lebih tinggi di area pusat bisnis.
 
 **Ringkasan**
 
@@ -71,28 +69,27 @@ Sebaliknya, permintaan menurun drastis pada pukul 00:00–05:00, terutama di zon
 Selain itu, terdapat proporsi signifikan perjalanan dengan jarak tempuh pendek namun frekuensi tinggi di zona sentral Manhattan, serta perjalanan jarak jauh dari bandara ke pinggiran kota yang menghasilkan pendapatan tinggi. Beberapa zona juga teridentifikasi sebagai zona produktivitas rendah dengan waktu tunggu lama dan jumlah perjalanan rendah, berisiko menurunkan efisiensi armada jika tidak ditangani secara dinamis.
 
 
-
 ## Rekomendasi
 
-**1. Pengaturan Shift Pengemudi Berbasis Permintaan**
+**1. Pengaturan Jadwal Pengemudi Berbasis Permintaan**
 
-- Gunakan pola waktu permintaan untuk membagi shift ke dalam 3 blok:
+- Gunakan pola waktu permintaan untuk membagi jadwal pengemudi ke dalam 3 blok:
 
     - Pagi - Siang (06:00–14:00): permintaan stabil
     - Sore - Malam (14:00–22:00): puncak permintaan
     - Malam - Subuh (22:00–06:00): layanan terbatas, fokus bandara
 
-- Shift fleksibel tambahan di jam sibuk (16:00–20:00) di zona Midtown dan Brooklyn.
+- jadwal fleksibel tambahan di jam sibuk (16:00–20:00) di zona Midtown dan Brooklyn.
 
 **2. Distribusi Armada Berbasis Zona Produktivitas**
 
-- Fokuskan armada di zona dengan rasio trip tinggi dan tarif rata-rata besar:
+- Fokuskan armada di zona dengan rasio perjalanan tinggi dan tarif rata-rata besar:
 
     - Midtown Center, East Harlem, Downtown Brooklyn.
 
 - Hindari penumpukan armada di zona dengan rasio dropoff tinggi tapi pickup rendah seperti zona pemukiman (Upper East Side).
 
-- Terapkan sistem redistribusi otomatis berdasarkan permintaan waktu nyata (contoh: setelah dropoff di zona hunian → arahkan ulang ke pusat aktivitas).
+- Terapkan sistem redistribusi otomatis berdasarkan permintaan waktu nyata (contoh: setelah dropoff di zona hunian, arahkan ulang ke pusat aktivitas atau ke zona ideal sebagai titik siaga armada atau awal jadwal pengemudi).
 
 **3. Pengelolaan Hari Kerja dan Akhir Pekan**
 
@@ -114,7 +111,7 @@ Selain itu, terdapat proporsi signifikan perjalanan dengan jarak tempuh pendek n
 
 - Prioritaskan penggunaan rute alternatif di area rawan macet seperti Midtown dan Financial District.
 
-**6. Sistem Monitoring Berbasis Data**
+**6. Rekomendasi Jangka Panjang: Sistem Monitoring Berbasis Data**
 
 - Implementasikan dasbor pemantauan waktu nyata untuk:
 
@@ -123,3 +120,5 @@ Selain itu, terdapat proporsi signifikan perjalanan dengan jarak tempuh pendek n
     - Waktu tunggu & rasio produktivitas per zona
 
 Lakukan evaluasi rutin terhadap pola permintaan bulanan untuk menyesuaikan strategi jadwal pengemudi dan pengaturan armada secara adaptif.
+
+Seluruh pola waktu dan lokasi yang dianalisis menunjukkan bahwa optimalisasi operasional tidak hanya bergantung pada volume permintaan, tapi juga pada karakteristik perjalanannya (jarak, durasi, zona). Oleh karena itu, strategi penempatan armada dan jadwal pengemudi perlu mempertimbangkan faktor produktivitas per zona dan redistribusi armada secara adaptif.
